@@ -1,5 +1,7 @@
 # IAM Policy Lens
 
+**Área do portfólio:** [Cloud/Infraestrutura](https://github.com/alefkaue#cloudinfraestrutura) · **Contexto:** Projeto pessoal
+
 [![Tests](https://github.com/alefkaue/iam-policy-lens/actions/workflows/tests.yml/badge.svg)](https://github.com/alefkaue/iam-policy-lens/actions/workflows/tests.yml)
 
 Revisor **offline** de políticas AWS IAM em Python. Identifica padrões que merecem revisão: ações com curingas, permissões sensíveis de identidade, recursos amplos, principal `*` e uso de `NotAction`/`NotResource` em statements Allow.
